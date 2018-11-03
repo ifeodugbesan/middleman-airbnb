@@ -7,20 +7,153 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-2da639f4.css" rel="stylesheet" />
+    <link href="stylesheets/application-7ec3db33.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
-    <div id="home">
+    <div class="navbar-wagon">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <img src="images/logo-acc9c0ec.png" alt="logo">
+  </a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <a href="index.html" class="navbar-wagon-item navbar-wagon-link">Home</a>
+    <a href="show.html" class="navbar-wagon-item navbar-wagon-link">Show</a>
+    <a href="sigil.html" class="navbar-wagon-item navbar-wagon-link">Sigil</a>
+    <a href="team.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
+
+    <!-- Profile picture with dropdown list -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="images/stark_sigil-64e2ea8f.png" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown" alt="Stark sigil" />
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Messagese</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <div class="banner" style="background-image:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');">
+  <div class="banner-content">
+    <h1>Become a Lion</h1>
+    <p>Learn to be a lion with us</p>
+    <a class="btn btn-primary btn-lg">Start now</a>
+  </div>
+</div>
+
+<div id="home">
   <div class="home-content">
-    <img src="images/logo-acc9c0ec.png" width="200" alt="Logo" />
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <a href="about.html">More about this template</a>
-    </p>
+    <div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/paris');">
+          <h2>paris</h2>
+          <p>12 paris street</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/rio');">
+          <h2>rio</h2>
+          <p>12 rio street</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+          <h2>berlin</h2>
+          <p>12 berlin street</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/amsterdam');">
+          <h2>amsterdam</h2>
+          <p>12 amsterdam street</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/bali');">
+          <h2>bali</h2>
+          <p>12 bali street</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/london');">
+          <h2>london</h2>
+          <p>138 Kingsland road</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/melbourne');">
+          <h2>melbourne</h2>
+          <p>12 melbourne street</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/chengdu');">
+          <h2>chengdu</h2>
+          <p>12 chengdu street</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/copenhagen');">
+          <h2>copenhagen</h2>
+          <p>12 copenhagen street</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/barcelona');">
+          <h2>barcelona</h2>
+          <p>12 barcelona street</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/brussels');">
+          <h2>brussels</h2>
+          <p>12 brussels street</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/milan');">
+          <h2>milan</h2>
+          <p>12 milan street</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+    <div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This footer is made with <i class="fa fa-heart"></i> at Le Wagon
   </div>
 </div>
 
